@@ -8,13 +8,54 @@
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
+    <header>
+      <h1>Home</h1>
+      <nav>
+        <div class="dropdown">
+          <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item active" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+        </div>
+        <ul>
+          <li>Discover</li>
+          <li>Animation</li>
+          <li>Branding</li>
+          <li>Illustration</li>
+          <li>Mobile</li>
+          <li>Print</li>
+        </ul>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+      </nav>
+    </header>
+    <main>
+      <div class="post" style="width: 18rem;">
+        <img src="..." class="rounded" alt="...">
+        <div class="card-body">
+          <img src="..." alt="Profile Image">
+          <h5 class="card-title">Name <span class="badge text-bg-secondary">Team</span></h5>
+          <div>
+            <div class="likes">
+              <img src="likes" alt="Heart">
+              <p>193</p>
+            </div>
+            <div class="views">
+              <img src="views" alt="eye">
+              <p>67.4k</p>
+            </div>
+          </div>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+    </main>
     <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
