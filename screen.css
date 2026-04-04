@@ -1,8 +1,22 @@
 /* Add screen styles below */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container {
+    flex-direction: row;
+}
+
 
 
 .card-content {
-    display: flex;
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
@@ -10,7 +24,6 @@
 }
 
 .metrics, .likes, .views {
-    display: flex;
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
@@ -23,6 +36,7 @@
 
 .metrics img {
     width: 24px;
+    color: darkgrey;
 }
 
 #profile {
