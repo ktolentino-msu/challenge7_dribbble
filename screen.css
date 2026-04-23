@@ -36,7 +36,7 @@ ul li {
 
 .card-content {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
@@ -45,21 +45,31 @@ ul li {
     margin-top: 8px;
 }
 
+.profile-details {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+}
+
 .metrics, .likes, .views {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
     font-size: 12px;
+    gap: 8px;
 }
 
 .post img {
     width: 100%;
+    border: 1px solid #e1e1e1;
 }
 
 .metrics img {
     width: 16px;
     color: darkgrey;
+    border: none;
 }
 
 #profile {
