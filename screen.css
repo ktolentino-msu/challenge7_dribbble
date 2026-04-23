@@ -35,9 +35,14 @@ ul li {
 
 
 .card-content {
+    display: flex;
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 8px;
+    margin-top: 8px;
 }
 
 .metrics, .likes, .views {
@@ -50,7 +55,6 @@ ul li {
 
 .post img {
     width: 100%;
-    max-width: 300px;
 }
 
 .metrics img {
@@ -62,4 +66,8 @@ ul li {
     border-radius: 100%;
     width: 24px;
     height: 24px;
+}
+
+h5, p {
+    margin: 0;
 }
