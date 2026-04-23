@@ -8,12 +8,31 @@ header {
     width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
+    margin: 16px;
 }
 
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 32px;
+}
+
+ul {
+    display: flex;
+}
 .container {
+    flex-direction: column;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    display: flex;
     flex-direction: row;
 }
-
 
 
 .card-content {
